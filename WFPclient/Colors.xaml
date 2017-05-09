@@ -1,0 +1,26 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Color x:Key="BColor">#FF145E9D</Color>
+    <Color x:Key="GColor">#FFFF00</Color>
+    <Color x:Key="RColor">#FFAA2C27</Color>
+    <Color x:Key="YColor">#FF656A03</Color>
+    <Color x:Key="OColor">#FFF5EE</Color>
+    <Color x:Key="DColor">#00FF7F</Color>
+    <ImageBrush x:Key="Backg" ImageSource="NewFolder1/nebo.jpg" />
+    <SolidColorBrush x:Key="bBrush" Color="{StaticResource BColor}" />
+
+    <SolidColorBrush x:Key="rBrush" Color="{StaticResource RColor}" />
+    
+    <SolidColorBrush x:Key="gBrush" Color="{StaticResource GColor}" />
+
+    <SolidColorBrush x:Key="yBrush" Color="{StaticResource YColor}" />
+    
+    <SolidColorBrush x:Key="oBrush" Color="{StaticResource OColor}" />
+
+    <SolidColorBrush x:Key="dBrush" Color="{StaticResource DColor}" />
+   
+
+
+
+
+</ResourceDictionary>

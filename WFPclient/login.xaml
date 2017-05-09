@@ -1,0 +1,15 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="WFPclient.login"
+        Title="Авторизація" Height="300" Width="300" Background="{StaticResource gBrush}" ResizeMode="NoResize">
+    <Grid>
+        <TextBox x:Name="t1" HorizontalAlignment="Left" Height="22" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="272" Margin="10,70,0,0" TextChanged="t1_TextChanged"/>
+        <PasswordBox x:Name="t2" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,125,0,0" Width="272"/>
+        <Button Style="{StaticResource ButtonElse}" Content="Вхiд" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="207,152,0,0" Click="Button_Click_2"/>
+        <Button Style="{StaticResource ButtonElse}"  Content="Повернутись в головне меню" HorizontalAlignment="Left" Margin="0,238,0,0" VerticalAlignment="Top" Width="292" Click="Button_Click_1"/>
+        <TextBlock Style="{StaticResource TextStyle}" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Авторизація" VerticalAlignment="Top" Margin="0,27,0,0" Width="282" TextAlignment="Right"/>
+        <TextBlock Style="{StaticResource TextStyle}" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="10,49,0,0" Width="272"><Run Language="ru-ru" Text="Логін"/></TextBlock>
+        <TextBlock Style="{StaticResource TextStyle}" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="10,104,0,0" Width="272"><Run Language="ru-ru" Text="Пароль"/></TextBlock>
+    </Grid>
+</Window>
